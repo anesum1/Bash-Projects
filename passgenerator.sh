@@ -1,18 +1,17 @@
 #!/bin/bash
 
-# Password generator with login option
+# this can be anything of your choice
+echo "Welcome to simple password generator"
 
-# Ask user for the string length
+# ask the user how much long should be
+echo "please enter the length of the password"
 
-printf "\n"
-read -p "How many characters you would like the password to have? " pass_length
-printf "\n"
+# read the input given by user and store in variable
+read  PASS_LENGTH
 
-
-# Generate a list of 5 strings and cut it to the desired value provided from the user
-
-for i in {1..5}; do (tr -cd '[:alnum:]' < /dev/urandom | fold -w${pass_lenght} | head -n 1); done
-
-# Print the strings
-printf "$pass_output\n"
-printf "Goodbye, ${USER}\n"
+# loop will create 5 passwords according to
+# user as per length given by user
+for p in $(seq 1 5);
+do
+    openssl rand -base64 48 | cut -c1-$PASS_LENGTH
+done
