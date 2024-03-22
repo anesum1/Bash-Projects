@@ -3,7 +3,7 @@
 # Greeting
 echo "Welcome to password generator"
 
-# ask the user how much long should be
+# ask the user how long password should be
 echo "Please enter the length of the password:"
 
 # read the input given by user and store in variable
