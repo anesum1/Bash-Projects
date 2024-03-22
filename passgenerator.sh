@@ -9,6 +9,12 @@ echo "Please enter the length of the password:"
 # read the input given by user and store in variable
 read  PASS_LENGTH
 
+#Validate input
+if ! [[ $PASS_LENGTH =~ ^[0-9]+$ ]]; then
+    echo "Error: Please enter a valid number."
+    exit 1
+fi
+
 # loop will create 5 passwords according to user as per length given by user
 for p in $(seq 1 5);
 do
