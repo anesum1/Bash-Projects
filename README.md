@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For this project, I wrote a bash scripts for 3 different projects, to put into practice what I have learned so far on my Linux/Bash journey. I wrote scripts for the following:
+For this project, I wrote  bash scripts for 3 different tasks, to put into practice what I have learned so far on my Linux/Bash journey. I wrote scripts for the following tasks:
 
 -Password Generator
 
@@ -21,7 +21,7 @@ I began the project by using a basic Bash script capable of generating five pass
     <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/52f38cbf-06b3-40d6-8626-5fb8e590c9a6" alt="Bash-passgenerator-1">
 </p>
 
-Once I had done that, I decided yo add a script to save the passwords generated onto a text file that I called passwords.txt. Initially, it posed a challenge as the passwords stored in the file didn't match those generated. This led me to discover the solution: arrays. With arrays, you can store multiple values under a single variable name, providing a tidy solution to my dilemma.  I also added a script to ask the user whether they would like to save the generated passwords or not and to echo an appropriate response.
+Once I had done that, I decided to add a script to save the passwords generated onto a text file that I called passwords.txt. Initially, it posed a challenge as the passwords stored in the file didn't match those generated. This led me to discover the solution: arrays. With arrays, you can store multiple values under a single variable name, providing a tidy solution to my dilemma.  I also added a script to ask the user whether they would like to save the generated passwords or not and to echo an appropriate response.
 
 ![Bash-passgenerator-final](https://github.com/anesum1/Bash-Projects/assets/119237115/32c4cfae-26bb-4696-9d4e-a44471df2f4b)   ![Bash-passgenerator-notsaved](https://github.com/anesum1/Bash-Projects/assets/119237115/50df9c1a-97bb-4f60-8f55-9061a6e76be7)
 
