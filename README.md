@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project, I wrote a bash scripts for 3 different projects, to put into practice what I have learned so far on my Linux/Bash journey. I wrote scripts for the following:
+For this project, I wrote a bash scripts for 3 different projects, to put into practice what I have learned so far on my Linux/Bash journey. I wrote scripts for the following:
 
 -Password Generator
 
