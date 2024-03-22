@@ -33,6 +33,21 @@ Once I had done that, I decided to add a script to save the passwords generated 
 
 
 ## Policy Checker
+For this task, I wrote a bash script for a password policy checker. I used the 'grep' command to search for lines in a file  that contained the specified patterns related to the password policy settings, such as maximum password age, minimum password age, minimum password length, or password warning age. I also included a script for this script to be run by the root only. 
+
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/93717c83-5893-42eb-9e10-139797d177bd" alt="Policy-checker">
+</p>
+
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/0f6b75c7-7dde-4ff6-aaeb-d7e50e4b9488" alt="Policy-checker-1">
+</p>
+
+I then added another script using 'grep' to check the complexity of the passwords in this case looking at the minimum password length or the minimum character classes required for passwords.
+
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/33c43d27-1a67-426f-8b2d-64317230667f" alt="Policy-checker-2">
+</p>
 
 
 ## Firewall rule Generator/ Log scanner.
