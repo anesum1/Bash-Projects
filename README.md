@@ -6,8 +6,8 @@ The aim of this Bash project was to deepen my understanding of bash scripting th
 ### Skills Learned
  - Proficiency in bash scripting. 
  - Ability to generate random passwords securely, validate user input and save passwords to a text file securely.
- - Enhanced security awareness of restricting script execution to users with sudo privileges to limit access to sensitive operations.
- - Deepen understanding of privilege escalation on Linux
+ - Enhanced security awareness of restricting script execution to users with sudo privileges, to limit access to sensitive information.
+ - Deepen understanding of privilege escalation on Linux.
 
 ### Tools Used
 - Linux VM.
@@ -34,6 +34,11 @@ Once I had done that, I decided to add a script to save the passwords generated 
     <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/50df9c1a-97bb-4f60-8f55-9061a6e76be7" alt="Bash-passgenerator-no">
 </p>
 
+As a cybersecurity professional, keeping passwords in plain text is practically a crime! It's like leaving  your house keys lying around for any sneaky intruder to snatch up. So, I decided to add a script to encrypt the passwords stored on the text file. I chose 'ccrypt' for this task because of its encryption ablities and user-friendliness. 
+
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/3fd21f14-f509-4338-ab3b-acec5839c6c0" alt="Encryption">
+</p>  
 
 ### Policy Checker
 For this task, I wrote a bash script for a password policy checker. I used the 'grep' command to search for lines in a file  that contained the specified patterns related to the password policy settings, such as maximum password age, minimum password age, minimum password length, or password warning age. I also included a script for this to be run by the root only. 
