@@ -14,9 +14,9 @@ analyze_login_log() {
     local log_file="$1"
     local report_file="$2"
     local failed_login_count=$(grep -c "$FAILED_LOGIN_PATTERN" "$log_file")
-    
+
     # Generate report
-    echo "Login Log Analysis Report" > "$report_file"
+    echo "Login Log Analysis Report" >> "$report_file"
     echo "--------------------------" >> "$report_file"
     echo "Date: $(date)" >> "$report_file"
     echo "Failed Login Attempts: $failed_login_count" >> "$report_file"
