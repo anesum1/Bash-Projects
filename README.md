@@ -1,17 +1,18 @@
 # Bash Projects
 
-## Introduction
+## Objective
+The aim of this Bash project was todeepen my understandingof bash scripting through practical application. Initially, the scripts were rudimentary however, as the project progressed, I augmented them with additional lines to generate different responses. Moving forward, I am committed to expanding upon this project to refine my skills in bash scripting even further.
 
-For this project, I wrote  bash scripts for 3 different tasks, to put into practice what I have learned so far on my Linux/Bash journey. I wrote scripts for the following tasks:
+### Skills Learned
+ - Proficiency in bash scripting. 
+ - Ability to generate random passwords securely, validate user input and save passwords to a text file securely.
 
--Password Generator
+### Tools Used
+- Linux VM.
+- Git and Github. 
 
--Policy checker
-
--Firewall rule Generator/ Log scanner.
-
-
-## Password Generator
+## Projects:
+### Password Generator
 <p align="center">
     <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/f432266c-c867-4816-86bf-83a0dc6940cb" alt="Bash-passgenerator-1">
 </p>
@@ -32,7 +33,7 @@ Once I had done that, I decided to add a script to save the passwords generated 
 </p>
 
 
-## Policy Checker
+### Policy Checker
 For this task, I wrote a bash script for a password policy checker. I used the 'grep' command to search for lines in a file  that contained the specified patterns related to the password policy settings, such as maximum password age, minimum password age, minimum password length, or password warning age. I also included a script for this script to be run by the root only. 
 
 <p align="center">
@@ -50,7 +51,7 @@ I then added another script using 'grep' to check the complexity of the password
 </p>
 
 
-## Firewall rule Generator/ Log scanner.
+### Firewall rule Generator/ Log scanner.
 
 
 
