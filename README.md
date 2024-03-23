@@ -64,7 +64,7 @@ I then added another script using 'grep' to check the complexity of the password
 </p>
 
 
-### Firewall rule Generator/ Log scanner.
+### Failed Login Attempts Scanner
 
 
 
