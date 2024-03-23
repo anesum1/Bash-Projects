@@ -8,6 +8,9 @@ The aim of this Bash project was to deepen my understanding of bash scripting th
  - Ability to generate random passwords securely, validate user input and save passwords to a text file securely.
  - Enhanced security awareness of restricting script execution to users with sudo privileges, to limit access to sensitive information.
  - Deepen understanding of privilege escalation on Linux.
+ - Ability to generate logs and reports for tarcking and documenting security events.
+ - Stronger understanding of the importance of automating tasks.
+ -  Understanding of date and time manipulation in Linux.
 
 ### Tools Used
 - Linux VM.
@@ -65,8 +68,38 @@ I then added another script using 'grep' to check the complexity of the password
 
 
 ### Failed Login Attempts Scanner
+#### 1. Failed Login scanner
+For my final task, I decided to write a script to check for failed login attempts. There are many advantaged of checking for failed login attempts including detecting potential unauthorised attempts to the system and for early indication of an intrusion attempt.
+
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/0009230e-6726-412b-9eef-b19a7cfb7208" alt="Login-scanner">
+</p>
+
+#### 2. Automating Script
+I then decided to automate the script for continous monitoring, consitency and efficiency. This also allowed me to deepen my understanding of 'crontab' and format as I found it confusing at first. So, to start I set it to run every 2 minutes as shown below.
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/5e5c708a-83ed-429d-98cd-db2f3584180e" alt="Crontab">
+</p>
 
 
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/b15d8746-5024-4cca-bf1e-72ea393b5fd1" alt="Crontab">
+</p>
 
-## Conclusion
+These were the results after waiting a few minutes while the script ran automatically.
 
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/bc4ba765-dce4-49d8-a227-431daf787230" alt="logreport">
+</p>
+
+To further grasp the use of 'crontab', I decided to set a more specific time. I chose 1349 on Saturday the 23rd of March 
+
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/81bc93e4-4406-43cc-8756-4aaaa13d2fb0" alt="NewCrontab">
+</p>
+
+These were the results.
+
+<p align="center">
+    <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/08becb11-8346-440a-b329-2560695ed1d7" alt="Loginreport2">
+</p>
