@@ -98,7 +98,7 @@ To further grasp the use of 'crontab', I decided to set a more specific time. I 
     <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/81bc93e4-4406-43cc-8756-4aaaa13d2fb0" alt="NewCrontab">
 </p>
 
-These were the results.
+These were the results:
 
 <p align="center">
     <img src="https://github.com/anesum1/Bash-Projects/assets/119237115/08becb11-8346-440a-b329-2560695ed1d7" alt="Loginreport2">
