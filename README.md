@@ -4,7 +4,7 @@
 The aim of this Bash project was to deepen my understanding of bash scripting through practical application. Initially, the scripts were rudimentary however, as the project progressed, I augmented them with additional lines to generate different responses. Moving forward, I am committed to expanding upon this project to refine my skills in bash scripting even further.
 
 ### Skills Learned
- - Proficiency in bash scripting. 
+ - Bash scripting. 
  - Ability to generate random passwords securely, validate user input and save passwords to a text file securely.
  - Enhanced security awareness of restricting script execution to users with sudo privileges, to limit access to sensitive information.
  - Deepen understanding of privilege escalation on Linux.
