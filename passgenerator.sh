@@ -31,8 +31,15 @@ printf "%s\n" "${passwords[@]}"
 echo "Do you want to save these passwords to a file? (y/n)"
 read  choice
 if [ "$choice" = "y" ]; then
-    echo "Passwords saved to passwords.txt"
-       printf "%s\n" "${passwords[@]}" >>passwords.txt
+
+      #Encrypt passwords before saving
+        for password in "${passwords[@]}"; do
+            # Encrypt each password using ccrypt and store in the file
+            echo "$password" | ccrypt -e -K "$PASSPHRASE" > "passwords.txt.cpt"
+        done
+
+    echo "Passwords saved securely to passwords.txt.cpt"
+       #printf "%s\n" "${passwords[@]}" >>passwords.txt
 
 elif [ "$choice" = "n" ]; then
      echo "Passwords not saved."
